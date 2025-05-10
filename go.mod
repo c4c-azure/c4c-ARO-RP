@@ -1,6 +1,7 @@
 module github.com/Azure/ARO-RP
 
 go 1.22.9
+toolchain go1.24.1
 
 require (
 	github.com/Azure/azure-sdk-for-go v63.1.0+incompatible
@@ -81,12 +82,12 @@ require (
 	github.com/ugorji/go/codec v1.2.12
 	github.com/vincent-petithory/dataurl v1.0.0
 	go.uber.org/mock v0.4.0
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.36.0
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
-	golang.org/x/net v0.35.0
+	golang.org/x/net v0.38.0
 	golang.org/x/oauth2 v0.22.0
-	golang.org/x/sync v0.11.0
-	golang.org/x/text v0.22.0
+	golang.org/x/sync v0.12.0
+	golang.org/x/text v0.23.0
 	golang.org/x/tools v0.24.0
 	k8s.io/api v0.31.1
 	k8s.io/apiextensions-apiserver v0.27.2
@@ -276,8 +277,8 @@ require (
 	go.starlark.net v0.0.0-20220328144851-d1966c6b9fcd // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/mod v0.20.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/term v0.29.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/term v0.30.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.3.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
