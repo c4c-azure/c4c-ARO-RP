@@ -1,6 +1,6 @@
 module github.com/Azure/ARO-RP
 
-go 1.22.9
+go 1.23.0
 
 require (
 	github.com/Azure/azure-sdk-for-go v63.1.0+incompatible
@@ -84,7 +84,7 @@ require (
 	golang.org/x/crypto v0.33.0
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56
 	golang.org/x/net v0.35.0
-	golang.org/x/oauth2 v0.22.0
+	golang.org/x/oauth2 v0.27.0
 	golang.org/x/sync v0.11.0
 	golang.org/x/text v0.22.0
 	golang.org/x/tools v0.24.0
